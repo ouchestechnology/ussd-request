@@ -16,24 +16,11 @@ else if ($text == "1") {
 $response  = "CON Open an account \n";
 $response .= " Enter the Last 8 Digits of your Phone Number\n";
 }
-else if ($text == "2") {
-$response  = "CON  Pick a table for reservation below \n";
-$response .= "1. Table for 2 \n";
-$response .= "2. Table for 4 \n";
-$response .= "3. Table for 6 \n";
-$response .= "4. Table for 8 \n";
-}
-else if ($text == "3") {
-$response  = "CON  Pick a table for reservation below \n";
-$response .= "1. Table for 2 \n";
-$response .= "2. Table for 4 \n";
-$response .= "3. Table for 6 \n";
-$response .= "4. Table for 8 \n";
-}
+
 //Menu for a user who selects '1' from the second menu above
 // Will be brought to this third menu screen
-else if ($text == "1*1") {
-$response = "CON You are about to book a table for 2 \n";
+else if ($text == "12345678") {
+$response = "CON A text has been sent to you \n";
 $response .= "Please Enter 1 to confirm \n";
 }
 else if ($text == "1*1*1") {
