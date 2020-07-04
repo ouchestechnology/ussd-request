@@ -6,9 +6,9 @@ $text = $_POST["text"];
 //This is the first menu screen
 if ( $text == "" ) {
 $response  = " CON Welcome to Ouches Technology \n";
-$response .= "1. Enter 1 to About us";
-$response .= "2. Enter 2 to Check Our Products";
-$response .= "3. Enter 3 to Services";
+$response .= "1. Enter 1 to About us \n";
+$response .= "2. Enter 2 to Check Our Products \n";
+$response .= "3. Enter 3 to Services \n";
 }
 // Menu for a user who selects '1' from the first menu
 // Will be brought to this second menu screen
