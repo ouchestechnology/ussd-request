@@ -5,19 +5,16 @@ $serviceCode = $_POST["serviceCode"];
 $text = $_POST["text"];
 //This is the first menu screen
 if ( $text == "" ) {
-$response  = " CON Welcome to Ouches Technology \n";
-$response .= "1. Enter 1 to About us \n";
-$response .= "2. Enter 2 to Check Our Products \n";
-$response .= "3. Enter 3 to Services \n";
+$response  = " CON Welcome to Kolo \n";
+$response .= "1. Enter 1 to Open an Account \n";
+$response .= "2. Enter 2 to Balance \n";
+$response .= "3. Enter 3 to Manage \n";
 }
 // Menu for a user who selects '1' from the first menu
 // Will be brought to this second menu screen
 else if ($text == "1") {
-$response  = "CON About Us \n";
-$response .= "1. Contact information \n";
-$response .= "2. Goals and Objective \n";
-$response .= "3. Who we are \n";
-$response .= "4. Support \n";
+$response  = "CON Open an account \n";
+$response .= " Enter the Last 8 Digits of your Phone Number\n";
 }
 else if ($text == "2") {
 $response  = "CON  Pick a table for reservation below \n";
