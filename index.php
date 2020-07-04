@@ -5,7 +5,7 @@ $serviceCode = $_POST["serviceCode"];
 $text = $_POST["text"];
 //This is the first menu screen
 if ( $text == "" ) {
-$response  = "Welcome to Ouches Technology \n";
+$response  = " CON Welcome to Ouches Technology \n";
 $response .= "1. Enter 1 to About us";
 $response .= "2. Enter 2 to Check Our Products";
 $response .= "3. Enter 3 to Services";
