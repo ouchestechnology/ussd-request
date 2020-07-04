@@ -13,7 +13,7 @@ $response .= "3. Enter 3 to Services";
 // Menu for a user who selects '1' from the first menu
 // Will be brought to this second menu screen
 else if ($text == "1") {
-$response  = "About Us \n";
+$response  = "CON About Us \n";
 $response .= "1. Contact information \n";
 $response .= "2. Goals and Objective \n";
 $response .= "3. Who we are \n";
